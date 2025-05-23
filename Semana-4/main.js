@@ -123,7 +123,7 @@ const verCarrito = () => {
 }
 
 function terminarCompra() {
-	alert('Muchas gracias por su compra, no se olvide el ticket')
+	alert('Muchas gracias por su compra, no se olvide el ticket ' + total)
 	Carrito = []
 }
 
