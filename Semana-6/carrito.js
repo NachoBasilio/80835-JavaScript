@@ -36,6 +36,23 @@ class Carrito {
 		this.sumadorDeTotal()
 	}
 
+
+	// mostradorDeCarrito() {
+	// 	if (this.productos.length == 0) {
+	// 		alert('No tiene nada en el carrito')
+	// 	} else {
+	// 		let mensaje = 'Los prodcutos en el carrito que tenes son estos:\n '
+
+	// 		for (let i = 0; i < this.productos.length; i++) {
+	// 			mensaje += `\n Nombre: ${this.productos[i].nombre} - $ ${this.productos[i].precio} - ${this.productos[i].cantidad}`
+	// 		}
+
+	// 		mensaje += `\n\n Su total es de: ${this.total}`
+
+	// 		alert(mensaje)
+	// 	}
+	// }
+
 	mostradorDeCarrito() {
 		if (this.productos.length == 0) {
 			alert('No tiene nada en el carrito')
@@ -51,6 +68,25 @@ class Carrito {
 			alert(mensaje)
 		}
 	}
+
+	// quitarProductoDelCarrito(id) {
+	// 	this.llenadoraDeArrayDeIDCarrito()
+
+	// 	let index = this.productosCarritoId.indexOf(id)
+
+	// 	if (index == -1) {
+	// 		alert('No esta el producto en el carrito')
+	// 		return
+	// 	}
+
+	// 	if (this.productos[index].cantidad == 1) {
+	// 		this.productos.splice(index, 1)
+	// 	} else {
+	// 		this.productos[index].cantidad -= 1
+	// 	}
+
+	// 	this.sumadorDeTotal()
+	// }
 
 	quitarProductoDelCarrito(id, cantidad) {
 		let index = this.productos.findIndex((el) => {
@@ -99,3 +135,5 @@ class Carrito {
 		this.productosCarritoId = []
 	}
 }
+
+//Gracias por todo chicos! A estudiar!
