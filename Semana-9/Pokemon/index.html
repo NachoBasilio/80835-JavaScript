@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Alquile un Pokémon</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<h1 class="title">Centro de Préstamos Pokémon</h1>
+			<button id="toggleCartButton" class="toggle-cart-button">🛒</button>
+		</header>
+
+		<div id="cart" class="cart hidden">
+			<h2 class="cart-title">Tu Préstamo</h2>
+
+			<div class="cart-item">
+				<img
+					src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+					alt="Charmander"
+					class="cart-image"
+				/>
+				<span class="cart-name">Charmander</span>
+				<div class="cantidad">
+					<div class="cantidad-control">+</div>
+					<div class="cantidad-numero">5</div>
+					<div class="cantidad-control">-</div>
+				</div>
+			</div>
+
+			<button class="checkout-button">Finalizar Préstamo</button>
+		</div>
+
+		<main class="main">
+			<section id="pokemon-list" class="pokemon-list"></section>
+		</main>
+
+		<footer class="footer">
+			<p class="footer-text">Hecho con ❤️ usando la PokeAPI</p>
+		</footer>
+
+		<script src="./main.js"></script>
+	</body>
+</html>
