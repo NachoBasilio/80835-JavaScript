@@ -1,0 +1,77 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+	margin-bottom: 30px;
+}
+
+.curso-lista {
+	list-style: none;
+	padding: 0;
+	max-width: 800px;
+	margin: auto;
+}
+
+.curso-lista li {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.curso-lista img {
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	border-radius: 6px;
+}
+
+.curso-lista div {
+	flex-grow: 1;
+}
+
+.curso-lista .titulo {
+	font-size: 1.1em;
+	font-weight: 600;
+	margin: 0 0 5px;
+	color: #222;
+}
+
+.curso-lista .duracion {
+	color: #666;
+	font-size: 0.9em;
+	margin: 0 0 10px;
+}
+
+input[type='checkbox'] {
+	transform: scale(1.2);
+	margin-top: 10px;
+}
+
+.volver-container {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.btn-volver {
+	background-color: #e0e0e0;
+	color: #333;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 6px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.btn-volver:hover {
+	background-color: #d5d5d5;
+}

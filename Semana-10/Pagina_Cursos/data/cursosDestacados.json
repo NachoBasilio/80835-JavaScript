@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"titulo": "Curso de HTML",
+		"descripcion": "Aprende la estructura básica de las páginas web.",
+		"duracion": "4 semanas",
+		"imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6935wo8bLZh5FeafJEffqWKDOpNpx6UE5bg&s"
+	},
+	{
+		"id": 2,
+		"titulo": "Curso de CSS",
+		"descripcion": "Estiliza tus sitios web con CSS moderno.",
+		"duracion": "3 semanas",
+		"imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png"
+	},
+	{
+		"id": 3,
+		"titulo": "Curso de JavaScript",
+		"descripcion": "Haz tus páginas interactivas con JavaScript.",
+		"duracion": "5 semanas",
+		"imagen": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+	},
+	{
+		"id": 9,
+		"titulo": "Curso de Marketing Digital",
+		"descripcion": "Aprende a posicionar marcas en el entorno digital.",
+		"duracion": "5 semanas",
+		"imagen": "https://t3.ftcdn.net/jpg/02/28/18/48/360_F_228184808_BwcnbLZRuqThsuWqDtx8dJRM6CmfLkHN.jpg"
+	}
+]

@@ -1,0 +1,72 @@
+[
+	{
+		"id": 1,
+		"titulo": "Curso de HTML",
+		"descripcion": "Aprende la estructura básica de las páginas web.",
+		"duracion": "4 semanas",
+		"imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6935wo8bLZh5FeafJEffqWKDOpNpx6UE5bg&s"
+	},
+	{
+		"id": 2,
+		"titulo": "Curso de CSS",
+		"descripcion": "Estiliza tus sitios web con CSS moderno.",
+		"duracion": "3 semanas",
+		"imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png"
+	},
+	{
+		"id": 3,
+		"titulo": "Curso de JavaScript",
+		"descripcion": "Haz tus páginas interactivas con JavaScript.",
+		"duracion": "5 semanas",
+		"imagen": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+	},
+	{
+		"id": 4,
+		"titulo": "Curso de Python",
+		"descripcion": "Introducción al lenguaje de programación más popular.",
+		"duracion": "6 semanas",
+		"imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIAqRyMXOOUYEZJO2KBPLbq-caFS9XAD9Ncg&s"
+	},
+	{
+		"id": 5,
+		"titulo": "Curso de Git y GitHub",
+		"descripcion": "Aprende control de versiones y colaboración en proyectos.",
+		"duracion": "2 semanas",
+		"imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png"
+	},
+	{
+		"id": 6,
+		"titulo": "Curso de UX/UI Design",
+		"descripcion": "Crea interfaces agradables e intuitivas.",
+		"duracion": "4 semanas",
+		"imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0HdWjD0qIkIp-2dVBTGfEF1Isc0nhfG7gFA&s"
+	},
+	{
+		"id": 7,
+		"titulo": "Curso de Diseño Gráfico",
+		"descripcion": "Domina los principios básicos del diseño visual.",
+		"duracion": "3 semanas",
+		"imagen": "https://static.vecteezy.com/system/resources/previews/010/411/655/non_2x/graphic-designer-and-web-design-studio-tool-logo-free-vector.jpg"
+	},
+	{
+		"id": 8,
+		"titulo": "Curso de Inteligencia Artificial",
+		"descripcion": "Comprende los fundamentos de la IA y machine learning.",
+		"duracion": "8 semanas",
+		"imagen": "https://static.vecteezy.com/system/resources/previews/010/518/719/non_2x/artificial-intelligence-ai-processor-chip-icon-symbol-for-graphic-design-logo-website-social-media-mobile-app-ui-illustration-vector.jpg"
+	},
+	{
+		"id": 9,
+		"titulo": "Curso de Marketing Digital",
+		"descripcion": "Aprende a posicionar marcas en el entorno digital.",
+		"duracion": "5 semanas",
+		"imagen": "https://t3.ftcdn.net/jpg/02/28/18/48/360_F_228184808_BwcnbLZRuqThsuWqDtx8dJRM6CmfLkHN.jpg"
+	},
+	{
+		"id": 10,
+		"titulo": "Curso de Finanzas Personales",
+		"descripcion": "Organiza tu economía y aprende a invertir inteligentemente.",
+		"duracion": "2 semanas",
+		"imagen": "https://static.vecteezy.com/system/resources/previews/000/579/929/non_2x/business-finance-logo-template-vector.jpg"
+	}
+]

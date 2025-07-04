@@ -1,0 +1,90 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f9f9f9;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #4a90e2;
+	color: white;
+	text-align: center;
+	padding: 40px 20px;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 2.5em;
+}
+
+header p {
+	font-size: 1.2em;
+	margin: 10px 0 20px;
+}
+
+.btn,
+.btn-secundario {
+	text-decoration: none;
+	border-radius: 6px;
+	padding: 10px 20px;
+	font-weight: bold;
+}
+
+.btn {
+	background-color: white;
+	color: #4a90e2;
+}
+
+.btn-secundario {
+	display: inline-block;
+	margin-top: 20px;
+	background-color: #4a90e2;
+	color: white;
+}
+
+section {
+	padding: 40px 20px;
+	max-width: 800px;
+	margin: auto;
+}
+
+.curso-lista {
+	list-style: none;
+	padding: 0;
+}
+
+.curso-lista li {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	padding: 15px;
+	margin-bottom: 15px;
+	border-radius: 6px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.curso-lista img {
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	border-radius: 6px;
+}
+
+.curso-lista .titulo {
+	font-size: 1.1em;
+	font-weight: 600;
+	margin: 0 0 5px;
+	color: #222;
+}
+
+.curso-lista .duracion {
+	color: #666;
+	font-size: 0.9em;
+	margin: 0;
+}
+
+.curso-lista .descripcion {
+	font-size: 0.95em;
+	color: #444;
+	margin-top: 5px;
+}
